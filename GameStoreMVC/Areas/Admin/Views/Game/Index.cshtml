@@ -1,0 +1,87 @@
+﻿ @model IEnumerable<Game>;
+
+<!-- Begin Page Content -->
+<div class="container-fluid">
+
+    <!-- Page Heading -->
+    <h1 class="h3 mb-2 text-gray-800">Games</h1>
+
+    <a asp-action="Create" asp-controller="Game" asp-area="Admin">
+        <button class="btn btn-success mb-3">
+            Create
+        </button>
+    </a>
+
+    <!-- DataTales Example -->
+    <div class="card shadow mb-4">
+        <div class="card-header py-3">
+            <h6 class="m-0 font-weight-bold text-primary">DataTables Example</h6>
+        </div>
+        <div class="card-body">
+            <div class="table-responsive">
+                <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th>Title</th>
+                            <th>Is Active</th>
+                            <th>Created Date</th>
+                            <th>Updated Date</th>
+                            <th>Deleted Date</th>
+                            <th>Update</th>
+                            <th>Delete</th>
+                            <th>Revert</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        @foreach (Game item in @Model)
+                        {
+                            <tr>
+                                <td>@item.Title</td>
+                                <td>@item.isActive</td>
+                                <td>@item.CreatedAt</td>
+                                <td>@item.UpdatedAt</td>
+                                <td>@item.DeletedAt</td>
+                                <td>
+                                    <a asp-controller="Game" asp-action="Update" asp-area="Admin" asp-route-id="@item.Id">
+                                        <button class="btn btn-warning text-white">Edit</button>
+                                    </a>
+                                </td>
+                                @{
+                                    if (item.isActive)
+                                    {
+                                        <td>
+                                            <a class="btn btn-danger" asp-controller="Game" asp-action="SoftDelete" asp-area="Admin" asp-route-id="@item.Id">
+                                                Soft Delete
+                                            </a>
+                                        </td>
+                                    }
+                                    else
+                                    {
+                                        <td>
+                                            <a class="btn btn-danger" asp-controller="Game" asp-action="HardDelete" asp-area="Admin" asp-route-id="@item.Id">
+                                                Hard Delete
+                                            </a>
+                                        </td>
+                                    }
+                                }
+                                @{
+                                    if (!item.isActive)
+                                    {
+                                        <td>
+                                            <a class="btn btn-primary" asp-controller="Game" asp-action="RevertSoftDelete" asp-area="Admin" asp-route-id="@item.Id">
+                                                Revert
+                                            </a>
+                                        </td>
+                                    }
+                                }
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-- /.container-fluid -->

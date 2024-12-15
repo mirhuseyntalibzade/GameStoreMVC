@@ -1,0 +1,13 @@
+﻿@using GameStoreMVC.ViewModels.GameViewModel;
+@model CreateGameVM;
+
+<div class="container-fluid">
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label">Title</label>
+            <input asp-for="Title" type="text" class="form-control">
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary text-white">Submit</button>
+    </form>
+</div>

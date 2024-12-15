@@ -1,0 +1,33 @@
+﻿@using GameStoreMVC.ViewModels.ProductViewModel;
+@model UpdateProductVM;
+
+<div class="container-fluid">
+    <form method="post">
+        <div class="mb-3">
+            <label asp-for="Title" class="form-label">Title</label>
+            <input asp-for="Title" type="text" class="form-control">
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Price" class="form-label">Price</label>
+            <input asp-for="Price" type="text" class="form-control">
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Desc" class="form-label">Desc</label>
+            <input asp-for="Desc" type="text" class="form-control">
+            <span asp-validation-for="Desc" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ImagePath" class="form-label">ImagePath</label>
+            <input asp-for="ImagePath" type="text" class="form-control">
+            <span asp-validation-for="ImagePath" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="GameId" class="form-label">GameId</label>
+            <select asp-for="GameId" asp-items="ViewBag.Games"></select>
+            <span asp-validation-for="GameId" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary text-white">Submit</button>
+    </form>
+</div>
