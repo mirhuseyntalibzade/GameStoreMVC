@@ -27,7 +27,7 @@
 
                                     @foreach (var item in Model)
                                     {
-                                        <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                        <div id="cartItem_@item.Id" class="row mb-4 d-flex justify-content-between align-items-center">
                                             <div class="col-md-2 col-lg-2 col-xl-2">
                                                 <img src="uploads/products/@item.ImagePath"
                                                      class="img-fluid rounded-3" alt="@item.Title">

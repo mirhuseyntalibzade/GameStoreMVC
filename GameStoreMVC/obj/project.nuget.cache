@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jjhY3RcRuhE=",
+  "dgSpecHash": "zJVqTJMBULQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\My Computer\\source\\repos\\GameStore\\GameStoreMVC\\GameStoreMVC.csproj",
+  "projectFilePath": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\GameStoreMVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\My Computer\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\My Computer\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

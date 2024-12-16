@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|c:\\users\\my computer\\desktop\\gamestoremvc\\gamestoremvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|solutionrelative:gamestoremvc\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|c:\\users\\my computer\\desktop\\gamestoremvc\\gamestoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|solutionrelative:gamestoremvc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|c:\\users\\my computer\\desktop\\gamestoremvc\\gamestoremvc\\dto\\cartitemdto\\removeitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|solutionrelative:gamestoremvc\\dto\\cartitemdto\\removeitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|c:\\users\\my computer\\desktop\\gamestoremvc\\gamestoremvc\\wwwroot\\assets\\js\\alert.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|solutionrelative:gamestoremvc\\wwwroot\\assets\\js\\alert.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|c:\\users\\my computer\\desktop\\gamestoremvc\\gamestoremvc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7293DF6F-F255-4C08-94A4-1C91DFC882DB}|GameStoreMVC\\GameStoreMVC.csproj|solutionrelative:gamestoremvc\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RemoveItemDTO.cs",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\DTO\\CartItemDTO\\RemoveItemDTO.cs",
+              "RelativeDocumentMoniker": "GameStoreMVC\\DTO\\CartItemDTO\\RemoveItemDTO.cs",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\DTO\\CartItemDTO\\RemoveItemDTO.cs",
+              "RelativeToolTip": "GameStoreMVC\\DTO\\CartItemDTO\\RemoveItemDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T00:15:07.384Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\Program.cs",
+              "RelativeDocumentMoniker": "GameStoreMVC\\Program.cs",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\Program.cs",
+              "RelativeToolTip": "GameStoreMVC\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T23:13:40.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "alert.js",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\wwwroot\\assets\\js\\alert.js",
+              "RelativeDocumentMoniker": "GameStoreMVC\\wwwroot\\assets\\js\\alert.js",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\wwwroot\\assets\\js\\alert.js",
+              "RelativeToolTip": "GameStoreMVC\\wwwroot\\assets\\js\\alert.js",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAwCUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-15T22:39:55.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "GameStoreMVC\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "GameStoreMVC\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-15T22:38:11.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "GameStoreMVC\\Controllers\\CartController.cs",
+              "ToolTip": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\Controllers\\CartController.cs",
+              "RelativeToolTip": "GameStoreMVC\\Controllers\\CartController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAgwAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T22:34:09.688Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,7 @@ using GameStoreMVC.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Newtonsoft.Json;
+using GameStoreMVC.DTO.CartItemDTO;
 
 namespace GameStoreMVC.Controllers
 {
@@ -71,9 +72,11 @@ namespace GameStoreMVC.Controllers
             });
             return RedirectToAction("Index", "Shop");
         }
-        //[HttpPost]
-        public IActionResult RemoveItem(int Id)
+        [HttpPost]
+        public IActionResult RemoveItem([FromBody] RemoveItemDTO request)
         {
+            int Id = request.Id;
+            Console.WriteLine($"Received Id: {Id}");
             List<CartItem> cartItems = new List<CartItem>();
             string? cookie = Request.Cookies["Cart"];
             if (cookie != null)
@@ -84,13 +87,14 @@ namespace GameStoreMVC.Controllers
             CartItem? removedItem = cartItems.FirstOrDefault(i => i.Id == Id);
             if (removedItem == null)
             {
-                return RedirectToAction("Index", "Cart");
+                return Json(new { success = false, message = "Item not found" });
             }
             cartItems.Remove(removedItem);
             string serializedObject = JsonConvert.SerializeObject(cartItems);
             Response.Cookies.Append("Cart", serializedObject);
-            return RedirectToAction("Index", "Cart");
+            return Json(new { success = true });
         }
+
 
         public async Task<IActionResult> ShowCart()
         {

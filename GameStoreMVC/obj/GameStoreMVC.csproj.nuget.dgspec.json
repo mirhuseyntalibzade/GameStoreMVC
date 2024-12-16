@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\My Computer\\source\\repos\\GameStore\\GameStoreMVC\\GameStoreMVC.csproj": {}
+    "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\GameStoreMVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\My Computer\\source\\repos\\GameStore\\GameStoreMVC\\GameStoreMVC.csproj": {
+    "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\GameStoreMVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\My Computer\\source\\repos\\GameStore\\GameStoreMVC\\GameStoreMVC.csproj",
+        "projectUniqueName": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\GameStoreMVC.csproj",
         "projectName": "GameStoreMVC",
-        "projectPath": "C:\\Users\\My Computer\\source\\repos\\GameStore\\GameStoreMVC\\GameStoreMVC.csproj",
+        "projectPath": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\GameStoreMVC.csproj",
         "packagesPath": "C:\\Users\\My Computer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\My Computer\\source\\repos\\GameStore\\GameStoreMVC\\obj\\",
+        "outputPath": "C:\\Users\\My Computer\\Desktop\\GameStoreMVC\\GameStoreMVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
